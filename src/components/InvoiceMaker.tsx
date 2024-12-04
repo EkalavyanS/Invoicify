@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { PlusCircle, Trash2, Upload, Download, Save } from "lucide-react";
+import React, { useState } from "react";
+import { PlusCircle, Trash2, Download, Save } from "lucide-react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Card, CardContent, CardFooter } from "./ui/card";

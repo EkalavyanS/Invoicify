@@ -1,4 +1,3 @@
-import React from 'react'
 import { InvoiceMaker } from './components/InvoiceMaker'
 
 function App() {
