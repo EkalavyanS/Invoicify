@@ -1,6 +1,6 @@
-# Invoice Management App
+# Invoicify 
 
-The Invoice Management App is a simple and efficient tool designed to help users manage their invoices. It provides options to save, load, and generate invoices, ensuring an organized workflow for handling financial records.
+The Invoicify is a simple and efficient tool designed to help users manage their invoices. It provides options to save, load, and generate invoices, ensuring an organized workflow for handling financial records.
 
 ---
 
