@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# Invoice Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Invoice Management App is a simple and efficient tool designed to help users manage their invoices. It provides options to save, load, and generate invoices, ensuring an organized workflow for handling financial records.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Save Invoice**: Easily save invoice data for future reference.
+- **Load Invoice**: Quickly retrieve previously saved invoices.
+- **Generate Invoice**: Instantly create a new invoice.
+- **User-Friendly Interface**: Clean and intuitive design for effortless navigation.
+- **Responsive Layout**: Optimized for use across all devices, from desktops to mobile.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## How to Use
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Save Invoice**: Click the "Save" button to store the current invoice.
+2. **Load Invoice**: Use the "Load" button to retrieve a saved invoice.
+3. **Generate Invoice**: Select the "Generate Invoice" button to create a new one.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Requirements
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- A modern web browser to run the app.
+
+---
+
+## Future Plans
+
+- Add the ability to export invoices as PDFs.
+- Implement cloud storage for saving and syncing invoices.
+- Introduce customizable invoice templates.
+- Add support for multiple languages.
